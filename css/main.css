@@ -13,17 +13,34 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
+  background-color: #FFE800;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-family: "kepler-std-semicondensed-dis";
+  font-size: 100%; 
+  letter-spacing: -10px;
+}
 
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+h1 { 
+  font-size: 20em; 
+  line-height:.14; 
+  margin-top: .5em; 
+}
+h2 { 
+  font-size: 17.89em; 
+}
+
+p, .hire { 
+  font-family: "brandon-grotesque", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 1em 0; 
+  font-size: 24px;
+}
 
 a         { color: #00a; }
 a:hover   { color: #000; }
@@ -158,3 +175,25 @@ ul.posts span {
 .post pre.terminal code {
   background-color: #333;
 }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 36em;
+}
+
+.hire {
+  
+  color: #000;
+
+  margin: 0;
+  position:fixed;
+  bottom: 0em;
+  padding: .5em 0em;
+  text-decoration: none;
+  border-bottom: .5em solid #000;
+
+  width: 20em;
+  margin-left: -10em;
+}
+
