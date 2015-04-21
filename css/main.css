@@ -38,7 +38,7 @@ p, .hire {
   font-family: "brandon-grotesque", sans-serif;
   text-transform: uppercase;
   font-weight: 900;
-  margin: 1em 0; 
+  margin: 3em 0; 
   font-size: 24px;
 }
 
@@ -172,6 +172,8 @@ ul.posts span {
   color: #FFF;
 }
 
+#logo { display: none; }
+
 .post pre.terminal code {
   background-color: #333;
 }
@@ -193,7 +195,34 @@ ul.posts span {
   text-decoration: none;
   border-bottom: .5em solid #000;
 
-  width: 20em;
-  margin-left: -10em;
+  width: 16em;
+  margin-left: -8em;
 }
 
+.hire:hover {
+  background-color: #000;
+  color: #FFE800;
+}
+
+#mask {
+  position: relative;
+  background-color: #000;
+  height: 24em;
+  margin-top: -1em;
+  overflow: hidden;
+}
+
+#mask img {
+  width: 100%;
+}
+
+#mask .mask {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  margin-left: -18em;
+}
+
+#mask .gif {
+  display: none;
+}

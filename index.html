@@ -3,13 +3,24 @@ layout: default
 title: Your New Jekyll Site
 ---
 
-
-<h1>HIVE</h1>
-<h2>MIND</h2>
-
 <div class='container'>
+
+<div id='mask'>
+  <img id='gif' class='gif' src='/img/beez.gif'/> 
+  <img class='mask' src='/img/all_praise_the_hivemind.png'/> 
+</div>
+
 <p>builds products and helps companies build theirs.</p>
 
 </div>
   
-<a class='hire' href='hello@dvncan.com'>Hire Us</a>
+<a class='hire' href='mailto:hello@dvncan.com'>Hire Us</a>
+
+<script type='text/javascript'>
+  document.getElementById('mask').onmouseover = function() {
+   document.getElementById('gif').style.display = 'block';
+  }
+  document.getElementById('mask').onmouseout = function() {
+   document.getElementById('gif').style.display = 'none';
+  }
+</script>
